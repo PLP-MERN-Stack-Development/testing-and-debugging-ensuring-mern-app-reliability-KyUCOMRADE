@@ -1,6 +1,6 @@
 # MyApp - MERN Stack User Management Dashboard
 
-![MyApp Banner](./screenshots/banner.png)
+![MyApp Banner](./screenshots/banner.jpg)
 
 MyApp is a modern **MERN (MongoDB, Express, React, Node.js)** application that allows you to efficiently manage users with a responsive dashboard. The app features **integration testing**, **modern UI**, and works seamlessly on both **desktop and mobile devices**.
 
@@ -29,34 +29,13 @@ MyApp is a modern **MERN (MongoDB, Express, React, Node.js)** application that a
 
 ---
 
-## Screenshots
-
-### Home Page
-
-![Home](./screenshots/home.png)
-
-### Login / Register
-
-![Login](./screenshots/login.png)
-![Register](./screenshots/register.png)
-
-### Dashboard
-
-![Dashboard](./screenshots/dashboard.png)
-
-### Test Coverage
-
-![Coverage Report](./screenshots/test-coverage.png)
-
----
-
 ## Installation
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/YourUsername/your-repo.git
-cd your-repo
+git clone https://github.com/PLP-MERN-Stack-Development/testing-and-debugging-ensuring-mern-app-reliability-KyUCOMRADE
+cd testing-and-debugging-ensuring-mern-app-reliability-KyUCOMRADE
 ```
 
 2. **Backend setup**
