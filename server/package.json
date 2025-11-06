@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "cross-env NODE_ENV=test jest --watchAll=false --detectOpenHandles",
+    "test:unit": "jest --testPathPatterns=unit --detectOpenHandles",
+    "test:integration": "cross-env NODE_ENV=test jest --testPathPatterns=integration --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.1",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.2.0",
+    "mongodb-memory-server": "^10.3.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
